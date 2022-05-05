@@ -1,0 +1,9 @@
+arr=["mahesh",19,"camera",null];
+arr.pop();
+arr.push("shubham");
+arr.shift();
+arr.unshift("shubham");
+console.log(arr);
+console.log(arr.sort());
+console.log(arr.toString());
+console.log(arr.length);
