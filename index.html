@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Events.js">
+    <style>
+        *{
+            background-color: pink;
+        }
+        header{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        main{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        footer{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        #name{
+            background-color: yellow;
+        }
+        .info{
+            border:2px solid black;
+            padding: 4px;
+        }
+        .end{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id ="name" >hey I am Mahesh</h1>
+        <br>
+        <button id = "click" onclick="clicked()">Click Me</button>
+    </header>
+    <main>
+        <div class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, consequatur cum error doloremque odit quisquam modi in culpa veritatis ab sapiente porro non aperiam praesentium eum illo sed accusantium quaerat.</div>
+
+    </main>
+    <footer>
+        <div class="end">
+            <p>Made with &hearts;</p>
+        </div>
+    </footer>
+</body>
+<script>
+    // let elem = document.getElementById('name');
+    // console.log(elem);
+
+    // let elemClass = document.getElementsByClassName('info');
+    // console.log(elemClass);
+
+    // elemClass[0].classList.add("bg-primary");
+    // elemClass.classList.add("text-success");
+    // console.log(elem.innerHTML);
+
+    // sel = document.querySelector(".info");
+    // console.log(sel);
+    function clicked(){
+    console.log("Button was Clicked");
+}
+window.onload=function(){
+    console.log("document loaded");
+}
+name.addEventListener('mouseover',function(){
+    console.log("clicked");
+})
+</script>
+</html>
